@@ -1,0 +1,12 @@
+{
+    "name": "brackets-permanent-scrollbars",
+    "title": "Permanent Scrollbars",
+    "description": "Makes the file list scrollbars always visible",
+    "homepage": "https://github.com/stowball/brackets-permanent-scrollbars",
+    "version": "0.0.1",
+    "author": "Matt Stow matt@mattstow.com (http://mattstow.com)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.44.0"
+    }
+}
