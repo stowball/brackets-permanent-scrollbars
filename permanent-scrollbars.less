@@ -4,10 +4,25 @@
 .dark.platform-mac .quiet-scrollbars,
 .dark.platform-win .quiet-scrollbars,
 .dark.platform-linux .quiet-scrollbars {
-	::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         border: none;
-		border-radius: 999px;
+        border-radius: 999px;
         box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.6) inset;
         border: 2px solid transparent;
     }
+}
+
+.open-files-container {
+    overflow-x: auto !important;
+}
+
+.sidebar-selection,
+.filetree-selection {
+    left: 0;
+    width: 100% !important;
+}
+
+.sidebar-selection-extension,
+.filetree-selection-extension {
+    display: none !important;
 }
